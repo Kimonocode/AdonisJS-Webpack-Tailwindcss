@@ -5,7 +5,7 @@
 #### 1) Start by cloning the git repository
 
 ```shell
-git clone **https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git**
+git clone https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git
 cd AdonisJS-Webpack-Tailwindcss
 ```
 #### 2) Install dependencies
