@@ -1,4 +1,4 @@
-![project logo](./public/images/banner.png "project logo")
+![project logo](./public/images/banner-sm.png "project logo")
 
 # Simple configuration for starting a new project whit AdonisJS, Webpack and Tailwindcss
 
