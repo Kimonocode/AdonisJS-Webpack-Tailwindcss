@@ -1,8 +1,8 @@
 ![project logo](./public/images/banner-sm.png "project logo")
 
-# Simple configuration for starting a new project whit AdonisJS, Webpack and Tailwindcss.
+# Basic configuration for starting a new project whit AdonisJS, Webpack and Tailwindcss.
 
-#### Cloning git repository
+#### Cloning
 
 ```shell
 git clone https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git
