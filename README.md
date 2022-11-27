@@ -2,19 +2,20 @@
 
 # Simple configuration for starting a new project whit AdonisJS, Webpack and Tailwindcss
 
-## Install :
+#### 1) Start by cloning the git repository
 
-#### Start by cloning the git repository
+```shell
+git clone **https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git**
+cd AdonisJS-Webpack-Tailwindcss
+```
+#### 2) Install dependencies
 
-1. git clone **https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git**
-2. cd AdonisJS-Webpack-Tailwindcss
+```shell
+yarn install
+```
+#### 3) Run development environment :
 
-#### Install dependencies
- 
-2. yarn install 
-
-## Run development environment :
-
-- yarn run dev 
-
+```shell
+yarn run dev
+```
 
