@@ -1,0 +1,52 @@
+{
+  "name": "adonisjs-webpack-tailwindcss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev":"concurrently --kill-others \"node ace serve --watch\" \"yarn run webpack:dev\"",
+    "build":"concurrently --kill-others \"node ace build --production\" \"yarn run webpack:build\"",
+    "webpack:dev": "NODE_ENV=development ./node_modules/.bin/webpack --watch --mode=development",
+    "webpack:build": "NODE_ENV=production ./node_modules/.bin/webpack --mode=production"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.9.5",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@japa/preset-adonis": "^1.2.0",
+    "@japa/runner": "^2.2.2",
+    "@types/proxy-addr": "^2.0.0",
+    "@types/source-map-support": "^0.5.6",
+    "adonis-preset-ts": "^2.1.0",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.0",
+    "concurrently": "^7.6.0",
+    "css-loader": "^6.7.2",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "mini-css-extract-plugin": "^2.7.0",
+    "pino-pretty": "^9.1.1",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.3",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.2.4",
+    "terser-webpack-plugin": "^5.3.6",
+    "typescript": "~4.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-manifest-plugin": "^5.0.0",
+    "youch": "^3.2.2",
+    "youch-terminal": "^2.1.5"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^5.8.0",
+    "@adonisjs/repl": "^3.1.0",
+    "@adonisjs/session": "^6.2.0",
+    "@adonisjs/shield": "^7.0.0",
+    "@adonisjs/view": "^6.1.0",
+    "proxy-addr": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21"
+  }
+}
