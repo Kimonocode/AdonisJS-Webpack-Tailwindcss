@@ -22,4 +22,7 @@ yarn install
 ```shell
 yarn run dev
 ```
+## ![project logo](./public/images/warning.png "project logo") Security
 
+the **APP_KEY** environment variable in the **.env** file is a fake variable.<br>
+You absolutely must change it for production !
