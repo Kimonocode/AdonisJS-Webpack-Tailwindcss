@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "dev":"concurrently --kill-others \"node ace serve --watch\" \"yarn run webpack:dev\"",
-    "build":"concurrently --kill-others \"node ace build --production\" \"yarn run webpack:build\"",
+    "build":"concurrently --kill-others \"yarn run webpack:build\" \"node ace build --production\"",
     "webpack:dev": "NODE_ENV=development ./node_modules/.bin/webpack --watch --mode=development",
     "webpack:build": "NODE_ENV=production ./node_modules/.bin/webpack --mode=production"
   },

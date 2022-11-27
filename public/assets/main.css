@@ -472,20 +472,12 @@ video {
   --tw-backdrop-sepia:  ;
 } /* Preflight will be injected here */
 
-.mb-12 {
-  margin-bottom: 3rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .flex {
@@ -562,16 +554,12 @@ video {
   padding-left: 5rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pl-24 {
@@ -586,11 +574,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
