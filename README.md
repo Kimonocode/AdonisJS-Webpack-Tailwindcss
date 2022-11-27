@@ -6,14 +6,18 @@
 
 ```shell
 git clone https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git
+```
+#### 2) Go to folder
+
+```shell
 cd AdonisJS-Webpack-Tailwindcss
 ```
-#### 2) Install dependencies
+#### 3) Install dependencies
 
 ```shell
 yarn install
 ```
-#### 3) Run development environment :
+#### 4) Run development environment :
 
 ```shell
 yarn run dev
