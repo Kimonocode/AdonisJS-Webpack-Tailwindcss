@@ -24,6 +24,14 @@ yarn run dev
 ```
 ## ![project logo](./public/images/warning.png "project logo") Security
 
+The ```diff
+  + APP_KEY
+  ```
+environment variable in the **.env** file is a fake variable. 
+You absolutely must change it for production !
+
+
+
 ```diff
 + The **APP_KEY** environment variable in the **.env** file is a fake variable. 
 + You absolutely must change it for production !
