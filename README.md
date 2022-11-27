@@ -27,6 +27,6 @@ yarn run dev
 ```diff
 + The APP_KEY environment variable in the .env file is a fake variable. 
 + You absolutely must change it for production !
-
+```
 
 
