@@ -5,7 +5,7 @@
 #### Cloning
 
 ```shell
-git clone https://github.com/RonalDeveloper/AdonisJS-Webpack-Tailwindcss.git
+git clone https://github.com/Kimonocode/AdonisJS-Webpack-Tailwindcss.git
 ```
 #### Go to folder
 
